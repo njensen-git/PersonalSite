@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning bootrap v5 w/ sass</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
+
+    <link rel="stylesheet" href="/assets/vendors/css/glightbox.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Start of Navbar Section-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="images/Cube2.png" alt="logo image" style='max-width: 23%'>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <button type="button" class="rounded-pill btn-rounded">4035054232
+                <span>
+                    <i class="fas fa-phone-alt"></i>
+                </span>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- INTrO Section-->
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row align-items-center text-white">
+      <!-- start of intro content -->
+      <div class="col-md-6 intros">
+      <h1 class="display2">
+        <span class="display-2--intro">Hello, I'm Nolan!</span>
+        <span class="display-2--description lh-base">This is a portfolio of projects I've made, including this website.</span>
+      </h1>
+      <button type="button" class="rounded-pill btn-rounded">Contact Me
+        <span>
+            <i class="fas fa-arrow-right"></i>
+        </span>
+    </button>
+    </div>
+    <!--start of video content  -->
+      <div class="col-md-6 intros text-end">
+      <div class="video-box">
+        <img src="images/art/3D Model_Two Color.png" alt="video illustration" class="img-fluid">
+        <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+          <span>
+            <i class="fas fa-play-circle"></i>
+          </span>
+          <span class="border-animation border-animation--border-1"></span>
+          <span class="border-animation border-animation--border-2"></span>
+        </a>
+      </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L60,202.7C120,213,240,235,360,218.7C480,203,600,149,720,117.3C840,85,960,75,1080,106.7C1200,139,1320,213,1380,250.7L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+</section>
+<!-- section 4: services -->
+<section id="services" class="services">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold" >My Services</h1>
+      <div class="heading-line mb-1"></div>
+    </div>
+  </div>
+
+  <!-- description -->
+  <div class="container">
+    <div class="row pt-2 pb-2 mt-5 mb-3">
+      <div class="col-md-6 border-right">
+        <div class="bg-white p-3">
+          <h2 class="fw-bold text-capitalize text-center">
+            Comprehensive software development & 3D modelling services
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-white p-4 text-start">
+        <div class="p fw-light">
+         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae debitis unde, voluptate modi enim necessitatibus, eum exercitationem quas dolore fugiat beatae eligendi cum? Tempore delectus minima a doloribus.
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- start services content -->
+  <div class="container">
+    <!-- start of programming content -->
+    <div class="row">
+      <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-code"></div>
+          <h3 class="display-3--title mt-1">Programming</h3>
+        </div>
+        <p class="lh-lg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi perferendis exercitationem libero atque facere quos facilis adipisci blanditiis tempore, quisquam pariatur consectetur voluptas est veniam corporis voluptate?
+          </p>
+          <button type="button" class="rounded-pill btn-rounded border-primary">More Info
+            <span>
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </button>
+      </col-lg-6>
+      <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="../images/services/python.png" alt="programming illustration" class="img-fluid">
+        </div>
+      </col-lg-6>
+      
+    </div>
+    <!--start of 3D content -->
+    <div class="row">
+      <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services__content">
+          <div class="services__pic">
+            <img src="../images/services/3D.png" alt="3D illustration" class="img-fluid">
+          </div>
+        </div>
+      </col-lg-6>
+      <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4 ">
+        <div class="services__content">
+          <div class="icon d-block fas fa-cube"></div>
+          <h3 class="display-3--title mt-1">3D Modelling</h3>
+        </div>
+        <p class="lh-lg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi perferendis exercitationem libero atque facere quos facilis adipisci blanditiis tempore, quisquam pariatur consectetur voluptas est veniam corporis voluptate?
+          </p>
+          <button type="button" class="rounded-pill btn-rounded border-primary">More Info
+            <span>
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </button>
+        </div>
+      </col-lg-6>
+
+    <!-- PM content -->
+    <div class="row">
+      <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fab fa-buffer"></div>
+          <h3 class="display-3--title mt-1">Project Management</h3>
+        </div>
+        <p class="lh-lg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi perferendis exercitationem libero atque facere quos facilis adipisci blanditiis tempore, quisquam pariatur consectetur voluptas est veniam corporis voluptate?
+          </p>
+          <button type="button" class="rounded-pill btn-rounded border-primary">More Info
+            <span>
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </button>
+      </col-lg-6>
+      <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+      <div class="services__pic">
+        <img src="../images/services/mgmt.png" alt="management illustration" class="img-fluid">
+      </div>
+      </col-lg-6>
+      
+    </div>
+  </div>
+</section>
+
+
+    <script src="/assets/vendors/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+    const lightbox = GLightbox({
+      'href': 'https://www.youtube.com/watch?v=-JnoIn8giWk',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoPlayVideos': 'true'
+});
+</script>
+    <script src="/assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
