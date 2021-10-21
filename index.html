@@ -39,9 +39,9 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <button type="button" class="rounded-pill btn-rounded">4035054232
+            <button type="button" class="rounded-pill btn-rounded" onclick="copyMe()">jensenn93@gmail.com
                 <span>
-                    <i class="fas fa-phone-alt"></i>
+                    <i class="far fa-envelope"></i>
                 </span>
             </button>
           </div>
@@ -95,14 +95,14 @@
       <div class="col-md-6 border-right">
         <div class="bg-white p-3">
           <h2 class="fw-bold text-capitalize text-center">
-            Software development & 3D Modelling
+            Software Development
           </h2>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="bg-white p-4 text-start">
+        <div class="bg-white p-0 text-start">
         <div class="p fw-light">
-         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae debitis unde, voluptate modi enim necessitatibus, eum exercitationem quas dolore fugiat beatae eligendi cum? Tempore delectus minima a doloribus.
+          I am a primarily self-taught programmer with experience completing projects in Java, Python and HTML/JavaScript. I have additionally taken university courses in important aspects of programming theory including data structures and algorithms. Examples of my projects include:
         </div>
         </div>
       </div>
@@ -111,15 +111,40 @@
 
   <!-- start services content -->
   <div class="container">
-    <!-- start of programming content -->
+    <!--start of Java content -->
+    <div class="row">
+      <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services__content">
+          <div class="services__pic">
+            <img src="/scss/images/Java_Outline.svg" alt="Java artwork" class="img-fluid">
+          </div>
+        </div>
+      </col-lg-6>
+      <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4 ">
+        <div class="services__content">
+          <div class="icon d-block fab fa-java fa-9x"></div>
+          <h3 class="display-3--title mt-1">Java</h3>
+        </div>
+        <p class="lh-lg">
+          I have utilized Java more extensively than any other language. As an example, a project I completed as a final project for an algorithms course: a Vertex Cover algorithm which implements a reasonably efficient solution to the NP-Complete vertex cover problem. The Vertex Cover problem is finding the minimum subset of vertices for a graph which form a "cover" where all nodes on the graph structure contain an edge which connects them to a node within the cover.
+        </p>
+          <button type="button" class="rounded-pill btn-rounded border-primary">More Info
+            <span>
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </button>
+        </div>
+      </col-lg-6>
+
+    <!-- start of Python content -->
     <div class="row">
       <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
           <div class="icon d-block fas fa-code"></div>
-          <h3 class="display-3--title mt-1">Programming</h3>
+          <h3 class="display-3--title mt-1">Python</h3>
         </div>
         <p class="lh-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi perferendis exercitationem libero atque facere quos facilis adipisci blanditiis tempore, quisquam pariatur consectetur voluptas est veniam corporis voluptate?
+          A Discord bot which takes user input to then query the Riot Games API and return interpreted data from the resulting JSON file. 
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">More Info
             <span>
@@ -134,40 +159,16 @@
       </col-lg-6>
       
     </div>
-    <!--start of 3D content -->
-    <div class="row">
-      <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
-        <div class="services__content">
-          <div class="services__pic">
-            <img src="../images/services/3D.png" alt="3D illustration" class="img-fluid">
-          </div>
-        </div>
-      </col-lg-6>
-      <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4 ">
-        <div class="services__content">
-          <div class="icon d-block fas fa-cube"></div>
-          <h3 class="display-3--title mt-1">3D Modelling</h3>
-        </div>
-        <p class="lh-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi perferendis exercitationem libero atque facere quos facilis adipisci blanditiis tempore, quisquam pariatur consectetur voluptas est veniam corporis voluptate?
-          </p>
-          <button type="button" class="rounded-pill btn-rounded border-primary">More Info
-            <span>
-                <i class="fas fa-arrow-right"></i>
-            </span>
-        </button>
-        </div>
-      </col-lg-6>
-
-    <!-- PM content -->
+    
+    <!-- HTML content -->
     <div class="row">
       <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
           <div class="icon d-block fab fa-buffer"></div>
-          <h3 class="display-3--title mt-1">Project Management</h3>
+          <h3 class="display-3--title mt-1">HTML / JavaScript</h3>
         </div>
         <p class="lh-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi perferendis exercitationem libero atque facere quos facilis adipisci blanditiis tempore, quisquam pariatur consectetur voluptas est veniam corporis voluptate?
+          This website is implemented on a Node.js base using Bootstrap V5 and Sass, with the various modules you see here being largely implemented directly in HTML.
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">More Info
             <span>
@@ -177,7 +178,7 @@
       </col-lg-6>
       <col-lg-6 class="col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
       <div class="services__pic">
-        <img src="../images/services/mgmt.png" alt="management illustration" class="img-fluid">
+        <img src="/scss/images/Javascript_Outline.svg" alt="javascript illustration" class="img-fluid">
       </div>
       </col-lg-6>
       
